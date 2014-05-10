@@ -8,6 +8,7 @@ Source0:	https://github.com/xybu92/onedrive-d/archive/v%{version}-alpha/%{name}-
 # Source0-md5:	2ab5ae73df9e04da7247afd9c4fd30ca
 URL:		http://xybu.me/projects/onedrive-d/
 Requires:	python-onedrive
+Suggests:	python-pywebkitgtk
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
